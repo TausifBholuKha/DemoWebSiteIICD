@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Registration Form</title>
+
+</head>
+
+<body>
+    <h2>
+        <p class="text-center"><strong>Registration Form</strong></p>
+    </h2><br>
+
+
+    <form>
+        <div class="form-group row">
+            <div class="col-2">
+                <label for="inputname" class=" col-form-label">Name:</label>
+            </div>
+            <div class="col-3">
+                <input type="text" class="form-control" placeholder="Surname">
+            </div>
+            <div class="col-3">
+                <input type="text" class="form-control" placeholder="First name">
+            </div>
+            <div class="col-3">
+                <input type="text" class="form-control" placeholder="middle name">
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-2">
+                <label for="inputname" class=" col-form-label">Mobile No:</label>
+            </div>
+            <div class="col-4">
+                <input type="text" class="form-control" placeholder="Mobile no.">
+            </div>
+            <div class="col-1">
+                <label for="inputname" class=" col-form-label">Mail-Id:</label>
+            </div>
+            <div class="col-4">
+                <input type="email" class="form-control" placeholder="E-mail">
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-2">
+                <label for="inputdesig" class="col-form-label">Designation:</label>
+            </div>
+            <div class="col-4">
+                <select id="inputdesig" class="form-control">
+                    <option selected>Choose...</option>
+                    <option>CLASS I</option>
+                    <option>CLASS II</option>
+                    <option>CLASS III</option>
+                </select>
+            </div>
+            <div class="col-1">
+                <label for="inputgender" class="col-form-label">Gender:</label>
+            </div>
+            <div class="col-4">
+                <select id="inputgender" class="form-control">
+                    <option selected>Male</option>
+                    <option>Female</option>
+                    <option>Other</option>
+                </select>
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-2">
+                <label for="inputdist" class="col-form-label">District:</label>
+            </div>
+            <div class="col-4">
+                <select id="inputdist" class="form-control">
+                    <option selected>Choose...</option>
+                    <option>...</option>
+                </select>
+            </div>
+            <div class="col-1">
+                <label for="inputtaluka" class="col-form-label">Taluka:</label>
+            </div>
+            <div class="col-4">
+                <select id="inputtaluka" class="form-control">
+                    <option selected>Choose</option>
+                    <option>..</option>
+                    <option>..</option>
+                </select>
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-2">
+                <label for="inputtype" class="col-form-label">Institute Type:</label>
+            </div>
+            <div class="col-4">
+                <select id="inputtype" class="form-control">
+                    <option selected>Choose...</option>
+                    <option>...</option>
+                </select></div>
+            <div class="col-1">
+                <label for="inputdob" class=" col-form-label">DOB:</label>
+            </div>
+            <div class="col-4">
+                <input type="date" class="form-control" placeholder="DOB">
+            </div>
+
+        </div>
+        <div class="form-group row">
+            <div class="col-2">
+                <label for="inputuser" class=" col-form-label">User Name:</label>
+            </div>
+            <div class="col-4">
+                <input type="text" class="form-control" placeholder="User-name">
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-2">
+                <label for="inputpassword" class=" col-form-label">Password:</label>
+            </div>
+            <div class="col-4">
+                <input type="password" class="form-control" placeholder="password">
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-2">
+                <label for="inputreenter" class=" col-form-label">Confirm Password:</label>
+            </div>
+            <div class="col-4">
+                <input type="password" class="form-control" placeholder="Confirm password">
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <div class="col-2">
+                <label for="inputdate" class=" col-form-label">Joining Date:</label>
+            </div>
+            <div class="col-4">
+                <input type="date" class="form-control" placeholder="Joining-date">
+            </div>
+            <div class="col-1">
+                <label for="inputsalary" class=" col-form-label">Joining Salary:</label>
+            </div>
+            <div class="col-4">
+                <input type="text" class="form-control" placeholder="salary">
+            </div>
+        </div>
+        </div>
+        <div class="col-2 mx-auto d-block ">
+            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">
+                Submit
+              </button>
+              <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">
+                Cancel
+              </button>
+        </div>
+        <div><br>
+
+    </form><br>
+    <!-- Button trigger modal -->
+
+<!-- Button trigger modal -->
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Terms & Conditions</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <form>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor accusamus nobis, tenetur, non dolorem fugit iste reprehenderit eveniet autem provident saepe alias quo repudiandae optio mollitia adipisci soluta ad. Sapiente!</p>
+                <div class="form-group form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Terms & Conditions</label>
+                </div>
+                <button type="submit" class="btn btn-success">Submit</button>
+              </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<footer class="container text-left">
+    <p class="float-right"><a href="#">Back to top</a></p>
+    <p>© 2020-2021 समन्वय समिती, All Rights Reserved </p>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+</footer>
+
+</html>
